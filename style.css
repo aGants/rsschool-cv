@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 50px 5px;
+  font-family: Open Sans, Arial, Helvetica, sans-serif;
+}
+
+.main {
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 35px;
+}
+
+.contacts {
+  font-size: 12px;
+}
+
+.contact,
+.contact:after,
+.contact:link,
+.contact:visited {
+  color: #717475;
+  text-decoration: none;
+}
+
+.contact:hover {
+  color: #0d1011;
+}
+
+.info {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 13px;
+}
+
+.info-block {
+  max-width: 350px;
+  padding: 10px;
+}
+
+.image {
+  display: block;
+  width: 100%;
+}
+
+.code {
+  padding: 5px;
+  list-style-type: none;
+}
+
+.text {
+  display: block;
+  margin: 5px 0 5px;
+}
+
+.code__sample,
+.code__sample:after,
+.code__sample:link,
+.code__sample:visited
+.code__sample {
+  font-weight: 500;
+  color: #000;
+  text-decoration: none;
+}
+
+.code__sample:hover {
+  color: #717475;
+}
