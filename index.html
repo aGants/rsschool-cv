@@ -4,25 +4,42 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>About me</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <main class="main">
-    <h1 class="main__title">Adelia Gantseva</h1>
-    <span class="main__contact"><a href="mailto:adelgants@gmail.com">adelgants@gmail.com</a>, <a href="https://t.me/aboulia">Telegram</a></span>
-    <div class="main-info">
-      <p class="main-info">
-        <img src="img.jpg" alt="Фотография">
-        <span class="main-info__skills">HTML/CSS (flex, grid | pug, sass), gulp; Javascript, Vue.js; Git, BEM Methodology; </span>
-        <span class="main-info__english">Intermediate B1 – can read and understand english, but a little nervous to speak</span>
+    <h1 class="title">Adelia Gantseva</h1>
+    <p class="contacts">
+      <a href="https://github.com/aGants" class="contact">github |</a>
+      <a href="https://t.me/aboulia" class="contact">telegram |</a>
+      <a href="mailto:adelgants@gmail.com" class="contact">adelgants@gmail.com</a>
+    </p>
+    <div class="info">
+      <p class="info-block">
+        <img src="img.jpg" alt="Фотография" class="image">
+        <span class="text">HTML/CSS (flex, grid | pug, sass), gulp; Javascript, Vue.js; Git, BEM Methodology; </span>
       </p>
-      <p class="main-info">
-        <span class="main-info__about">Im 23 yes old, just graduated from university and very excited about the opportunity to learn new
-          things. Want to obtain
-          a position as Junior Frontend Development.</span>
-        <span class="main-info__education">Saint-Petersburg State University of Industrial Technologies and Design, Bachelor’s degree in
-          Information Systems and
-          Technologies (June 2020); Front-End Ecommerce Technologies courses at Oneway studio (July – August)</span>
-      </p>
+      <dic class="info-block">
+        <span class="text">Im 23 yes old, just graduated from university and very excited about the opportunity to learn new
+          things. Want to obtain a position as Junior Frontend Development.</span>
+          <span class="text">My education: Saint-Petersburg State University of Industrial Technologies and Design, Bachelor’s degree in
+            Information Systems and Technologies (June 2020); Front-End Ecommerce Technologies courses at Oneway studio (July – August)</span>
+          <span class="text">Intermediate B1 – can read and understand english, but a little nervous to speak</span>
+        <span>Code samples:</span>
+        <ul class="code text">
+          <li>
+            <a href="https://github.com/aGants/fetch" class="code__sample">Online store</a>
+            <span class="code-text">– gulp, flex, grid, jquery</span>
+          </li>
+          <li>
+            <a href="https://github.com/aGants/funbox-test" class="code__sample">Сat food</a>
+            <span class="code-text">– gulp, flex, grid, vue</span>
+          </li>
+          <li>
+            <a href="https://github.com/aGants/todoApp" class="code__sample">To Do App</a>
+            <span class="code-text">– gulp, javascript</span>
+          </li>
+        </ul>
     </div> 
   </main>
 </body>
